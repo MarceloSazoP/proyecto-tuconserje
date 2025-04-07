@@ -1,0 +1,21 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="50" cy="50" r="45" fill="#4a90e2" />
+  
+  <!-- Edificio (representación simple) -->
+  <rect x="35" y="30" width="30" height="50" fill="white" rx="2" />
+  
+  <!-- Ventanas del edificio -->
+  <rect x="40" y="35" width="5" height="5" fill="#4a90e2" />
+  <rect x="55" y="35" width="5" height="5" fill="#4a90e2" />
+  <rect x="40" y="45" width="5" height="5" fill="#4a90e2" />
+  <rect x="55" y="45" width="5" height="5" fill="#4a90e2" />
+  <rect x="40" y="55" width="5" height="5" fill="#4a90e2" />
+  <rect x="55" y="55" width="5" height="5" fill="#4a90e2" />
+  
+  <!-- Puerta -->
+  <rect x="45" y="65" width="10" height="15" fill="#4a90e2" />
+  
+  <!-- Gorro de conserje (representación simple) -->
+  <path d="M30 30 L50 15 L70 30" stroke="white" stroke-width="3" fill="none" />
+</svg>

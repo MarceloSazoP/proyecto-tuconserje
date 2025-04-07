@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Tu Conserje",
+    "slug": "tuconserje-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/logo.svg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./public/logo.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuconserje.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/logo.svg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tuconserje.app"
+    },
+    "web": {
+      "favicon": "./public/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "tuconserje-mobile"
+      }
+    }
+  }
+}

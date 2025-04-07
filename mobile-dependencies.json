@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-navigation/bottom-tabs": "^6.5.8",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "expo": "~49.0.8",
+    "expo-status-bar": "~1.6.0",
+    "react-native": "0.72.4",
+    "react-native-gesture-handler": "~2.12.0",
+    "react-native-safe-area-context": "4.6.3",
+    "react-native-screens": "~3.22.0",
+    "react-native-svg": "13.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "installInstructions": "Para instalar estas dependencias en el proyecto, ejecuta: npm install --save $(cat mobile-dependencies.json | jq -r '.dependencies | to_entries | map("\(.key)@\(.value)") | join(" ')")"
+}
